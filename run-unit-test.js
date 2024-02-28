@@ -1,4 +1,4 @@
-const { hideBin } = require('yargs/helpers');
+const { hideBin } = require('yargs/helper');
 const yargs = require('yargs/yargs');
 const { runCommand, runInShell } = require('../development/lib/run-command');
 
