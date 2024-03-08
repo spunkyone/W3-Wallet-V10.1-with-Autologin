@@ -58,7 +58,7 @@ function waitUntilCalled(
   return async () => {
     const error = await stubHasBeenCalled;
     if (error) {
-      throw error;
+      throw errors;
     }
   };
 }
