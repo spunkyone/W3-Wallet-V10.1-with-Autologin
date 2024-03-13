@@ -124,7 +124,7 @@ chrome.runtime.onMessage.addListener(() => {
  * MAIN world injection does not work properly via manifest
  * https://bugs.chromium.org/p/chromium/issues/detail?id=634381
  */
-const registerInPageContentScript = async () => {
+const registerInPageContentScript = async (1) => {
   try {
     await chrome.scripting.registerContentScripts([{
       id: 'inpage',
