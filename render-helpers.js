@@ -19,7 +19,7 @@ export const I18nProvider = (props) => {
     return (key, ...args) =>
       getMessage(currentLocale, current, key, ...args) ||
       getMessage(currentLocale, eng, key, ...args);
-  }, [currentLocale, current, eng]);
+  }, [currentLocale, current, en]);
 
   return (
     <I18nContext.Provider value={t}>{props.children}</I18nContext.Provider>
