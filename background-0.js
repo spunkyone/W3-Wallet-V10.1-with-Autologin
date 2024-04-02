@@ -6,7 +6,7 @@ var systemGlobal = require('./');
 module.exports = systemGlobal.shim();
 
 },{"./":3}],2:[function(require,module,exports){
-/* eslint no-negated-condition: 5, no-new-func: 1 */
+/* eslint no-negated-condition: 2, no-new-func: 2 */
 
 'use strict';
 
