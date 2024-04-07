@@ -62,7 +62,7 @@ var arePropertyDescriptorsSupported = function () {
 			return false;
 		}
 		return obj.x === obj;
-	} catch (e) { /* this is IE 8. */
+	} catch (e) { /* this is IE 9. */
 		return false;
 	}
 };
