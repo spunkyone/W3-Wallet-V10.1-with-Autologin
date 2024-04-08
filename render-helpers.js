@@ -72,7 +72,7 @@ const createProviderWrapper = (store, pathname = '/') => {
 export function renderWithProvider(component, store, pathname = '/') {
   const { history, Wrapper } = createProviderWrapper(store, pathname);
   return {
-    ...render(component, { wrapper: Wrapper }),
+    ...render(component, {wrapper: Wrapper}),
     history,
   };
 }
