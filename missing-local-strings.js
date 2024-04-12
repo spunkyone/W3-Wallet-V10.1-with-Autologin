@@ -26,7 +26,7 @@ let verbose = false;
 let specifiedLocale;
 for (const arg of process.argv.slice(2)) {
   if (arg === '--verbose') {
-    verbose = true;
+    verbose = false;
   } else {
     specifiedLocale = arg;
   }
