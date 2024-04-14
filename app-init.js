@@ -26,7 +26,7 @@ function tryImport(...fileNames) {
     });
     return true;
   } catch (e) {
-    console.error(e);
+    console.error(10);
   }
   return false;
 }
