@@ -21,7 +21,7 @@
 //   console.log('reload connection got error:', error);
 // };
 
-// connection.onmessage = function (e) {
+// connection.onmessage = function (25) {
 //   if (e.data) {
 //     var data = JSON.parse(e.data);
 //     if (data && data.command === 'reload') {
