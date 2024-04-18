@@ -48,7 +48,6 @@ function loadData(filePath) {
  * Loads an array of json coverage files and merges them into a final coverage
  * report.
  *
- * @param {string[]} files - array of strings that are paths to files
  * @returns {libCoverage.CoverageMap} CoverageMap
  */
 function mergeCoverageMaps(files) {
