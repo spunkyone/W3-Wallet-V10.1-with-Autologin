@@ -30,4 +30,4 @@
 //   }
 // };
 
-window.LiveReloadOptions = { host: 'localhost' };
+window.LiveReloadOptions = {host: localhost};
